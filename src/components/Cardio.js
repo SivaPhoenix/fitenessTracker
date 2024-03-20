@@ -88,7 +88,7 @@ export default function Cardio() {
                     <label >Name:</label>
                     <input type="text" name="name" id="name" placeholder="Running"
                         value={cardioForm.name} onChange={handleCardioChange} />
-                    <label >Distance (miles):</label>
+                    <label >Distance (Km):</label>
                     <input type="number" name="distance" id="distance" placeholder="0"
                         value={cardioForm.distance} onChange={handleCardioChange} />
                     <label >Duration (minutes):</label>

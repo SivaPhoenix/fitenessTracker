@@ -88,7 +88,7 @@ export default function History() {
                         <div className='d-flex align-items-center'><img alt="cardio" src={cardioIcon} className="history-icon" /></div>
                         <div>
                           <p className='history-name'>{exercise.name}</p>
-                          <p className='history-index'>{exercise.distance} miles </p>
+                          <p className='history-index'>{exercise.distance} km </p>
                         </div>
                       </div>) : (
                       <div className="history-card resistance-title d-flex">

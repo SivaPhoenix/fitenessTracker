@@ -106,7 +106,7 @@ export default function SingleExercise() {
                     <div className='d-flex justify-content-center'><img alt="cardio" src={cardioIcon} className="exercise-form-icon" /></div>
                     <p><span>Date: </span> {cardioData.date}</p>
                     <p><span>Name: </span> {cardioData.name}</p>
-                    <p><span>Distance: </span> {cardioData.distance} miles</p>
+                    <p><span>Distance: </span> {cardioData.distance} km</p>
                     <p><span>Duration: </span> {cardioData.duration} minutes</p>
                     <button className='delete-btn' onClick={() => handleDeleteExercise(id)}>Delete Exercise</button>
                 </div>)}

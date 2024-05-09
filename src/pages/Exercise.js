@@ -36,7 +36,7 @@ export default function Exercise() {
 
         <div>
           <button style={{
-            backgroundColor: 'grey',
+            backgroundColor: 'red',
           }} className='resistance-btn d-flex flex-column   align-items-center justify-content-center' onClick={() => {}}>
             Coming Soon...
           </button>
